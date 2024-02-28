@@ -1,0 +1,14 @@
+header {
+    font-family: 'Cormorant Garamond';
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    background: #57290B;
+}
+
+a {
+    text-decoration: none; 
+    color: #fff; 
+  }
