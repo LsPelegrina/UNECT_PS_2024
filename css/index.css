@@ -1,18 +1,32 @@
+:root {
+    --color-neutral-0: #291505;
+    --color-neutral-1: #57290B;
+    --color-neutral-2: #8F542E;
+    --color-neutral-3: #B2784A;
+    --color-neutral-4: #E2C196;
+    --color-neutral-5: #EBDACC;
+    --color-neutral-6: #FFFFFF;
+}
+
 header {
     font-family: 'Cormorant Garamond';
     position: absolute;
     width: 100%;
     text-align: middle;
-    height: 130px;
+    height: 100px;
     left: 0px;
     top: 0px;
-    background: #57290B;
+    background: var(--color-neutral-1);
     letter-spacing: 1px;
     color: #fff;  
      
 }
 
-.conteiner {
+main {
+    width: 100%;
+}
+
+.container {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -43,7 +57,24 @@ li {
     align-items: center;
     justify-content: center;
     column-gap: 10px;
+    margin-bottom: 8px;
 }
+
 #logo-img {
     padding-bottom: 8.14px;
+}
+
+#sec-top {
+
+    background-image: url(/assets/Imagem\ Cafes.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 559px; 
+    position: absolute;
+    left: 0px;
+    top: 99px;
+    
+
 }
