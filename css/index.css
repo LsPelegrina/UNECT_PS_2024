@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
     --color-neutral-0: #291505;
     --color-neutral-1: #57290B;
@@ -148,7 +150,7 @@ li {
     transition: background-color 0.3s;
 }
 
-}
+
 
 .botao::after {
     content: "";
@@ -196,5 +198,5 @@ height: 75px;
 left: 0px;
 top: 3164px;
 background: #57290B;
-
 }
+
