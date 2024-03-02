@@ -213,6 +213,14 @@ background: #57290B;
 }
 
 .p2 {
+    
+    font-family: 'Open Sans';
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #FFDAB8;
+
     padding-right: 120px;
     position: absolute;
     top: 10px;
