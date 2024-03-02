@@ -9,6 +9,7 @@
     --color-neutral-5: #EBDACC;
     --color-neutral-6: #FFFFFF;
     --color-neutral-7: #F0F0F0;
+    --color-neutral-8: #FFDAB8;
 
 }
 
@@ -48,7 +49,7 @@ a {
     color: #fff; 
   }
 
-/* Estilos para a imagem e o número de telefone ficarem na mesma linha que os itens do menu */
+
 #img-vector {
     margin-right: 5px;
     vertical-align: middle;
@@ -140,7 +141,7 @@ li {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    border: 2px solid #57290B; /* Adiciona uma borda de cor marrom */
+    border: 2px solid #57290B; 
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -193,5 +194,27 @@ height: 75px;
 left: 0px;
 top: 3164px;
 background: #57290B;
+
 }
 
+#footer-content p{
+
+    font-family: 'Open Sans';
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #FFDAB8;
+
+    padding-left: 120px;
+    position: absolute;
+    top: 10px; 
+    bottom: 29.13px;
+}
+
+.p2 {
+    padding-right: 120px;
+    position: absolute;
+    top: 10px;
+    right: 29.13px;
+}
