@@ -187,42 +187,33 @@ top: 2208px;
 }
 
 #footer-content {
-
-position: absolute;
-width: 100%;
-height: 75px;
-left: 0px;
-top: 3164px;
-background: #57290B;
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background: #57290B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#footer-content p{
 
+#footer-content p {
     font-family: 'Open Sans';
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1%;
     color: #FFDAB8;
-
     padding-left: 120px;
-    position: absolute;
-    top: 10px; 
-    bottom: 29.13px;
 }
 
 .p2 {
-    
     font-family: 'Open Sans';
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1%;
     color: #FFDAB8;
-
     padding-right: 120px;
-    position: absolute;
-    top: 10px;
-    right: 29.13px;
 }
