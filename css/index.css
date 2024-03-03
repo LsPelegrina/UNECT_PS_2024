@@ -10,6 +10,7 @@
     --color-neutral-6: #FFFFFF;
     --color-neutral-7: #F0F0F0;
     --color-neutral-8: #FFDAB8;
+    --color-neutral-9: #1F0C00;
 
 }
 
@@ -146,19 +147,6 @@ li {
     transition: background-color 0.3s;
 }
 
-
-
-.botao::after {
-    content: "";
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent; 
-    border-bottom: 5px solid transparent; 
-    border-left: 8px solid #fff; 
-    margin-left: 5px; 
-}
-
 #sec-mid {
     background-color: #FFFFFF;
     position: absolute;
@@ -167,6 +155,24 @@ li {
     left: 104px;
     top: 715px;
 }
+
+#sec-mid.paragrafos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#sec-mid.paragrafos p {
+    padding-right: 120px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #1F0C00;
+    margin-bottom: 20px; 
+}
+
 
 #sec-bot {
     background-image: url(/assets/Cafe\ onda.png);
