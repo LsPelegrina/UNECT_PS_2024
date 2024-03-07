@@ -11,133 +11,111 @@
     --color-neutral-7: #F0F0F0;
     --color-neutral-8: #FFDAB8;
     --color-neutral-9: #1F0C00;
-
 }
 
-header {
-    font-family: 'Cormorant Garamond';
-    position: absolute;
+body{
     width: 100%;
-    text-align: middle;
+    margin: 0;
+    top:0;
+    left:0;
+}
+
+header{
+    position: fixed;
+    background-color: var(--color-neutral-1);
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100px;
-    left: 0px;
-    top: 0px;
-    background: var(--color-neutral-1);
-    letter-spacing: 1px;
-    color: #fff;  
-     
+}
+
+nav{
+    height: 100px;
+    margin-top: -15px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color-neutral-7);
+}
+  
+header nav ul li{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0 10px;
+    list-style: none;
+    height: 22px;
+}
+  
+header nav ul li img{
+    flex: 0 0 auto;
+}
+
+header nav ul img{
+    flex: 0 0 auto;
+}
+
+header nav ul li a{
+    color: var(--color-neutral-7);
+    text-decoration: none;
+}
+  
+#img-contato-header{
+    margin-right: 8px;
+    vertical-align: middle;
 }
 
 main {
     width: 100%;
-}
-
-.fixed {
-    position: fixed;
-    z-index: 9999;
-}
-
-.container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    list-style: none;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none; 
-    color: #fff; 
-  }
-
-
-#img-vector {
-    margin-right: 5px;
-    vertical-align: middle;
+    font-family: 'Open Sans';
 }
 
 
-li {
-    display:flex;
-    align-items: center;
-}
-
-#logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    column-gap: 10px;
-    margin-bottom: 8px;
-}
-
-#logo-img {
-    padding-bottom: 8.14px;
-}
-
-#sec-top {
+#sec-1 {
     background-image: url(/assets/Imagem\ Cafes.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 559px; 
-    position: absolute;
-    left: 0px;
-    top: 99px;
-    z-index: 2;
-
+    margin-top:100px;
     
 }
 
-#sec-top h1{
-    width: 589px;
-    height: 228px;
-    top: 163px;
-    left: 119px;
-    margin-left: 100px;
+#sec-1 div {
+    display:flex;
+    flex-direction: column;
+    align-items:normal;
+    margin-left:120px;
+    margin-bottom: 16px;
+}
 
-    font-family: 'Open Sans';
+
+#sec-1 h1{
+    height: 228px;
     font-size: 56px;
     font-weight: 700px;
     line-height: 76.26px;
     color: #F0F0F0;
-    
 }
 
-#sec-top p{
-    width: 514px;
+#sec-1 p{
     height: 66px;
-    top: 407px;
-    left: 119px;
-    margin-left: 100px;
-
-    
     font-size: 24px;
     font-weight: 400px;
     line-height: 33px;
     color: #F0F0F0;
 }
 
-.botao {
+/*.botao {
     font-family: 'Open Sans';
     font-size: 17px;
     font-weight: 800;
     line-height: 33px;
-    letter-spacing: 0.03em;
-    text-align: left;
     width: 175px;
-    height: 33px;
-    size: 18px;
-    line-height: 33px;
-    letter-spacing: 3%; 
-    padding: 12px, 32px, 12px, 32px;
-    border-radius: 8px;
-    gap: 27px;
     margin-left: 100px;
-
-    display: inline-block;
-    padding: 10px 20px;
+    display:flex;
     background-color: #8F542E ;
     color: #fff;
     text-decoration: none;
@@ -146,23 +124,23 @@ li {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+*/
 
-#sec-mid {
+#sec-2 {
     background-color: #FFFFFF;
-    position: absolute;
     width: 100%;
     height: 339.41px;
     left: 104px;
     top: 715px;
 }
 
-#sec-mid.paragrafos {
+#sec-2.paragrafos {
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
-#sec-mid.paragrafos p {
+#sec-2.paragrafos p {
     padding-right: 120px;
     font-family: 'Open Sans';
     font-weight: 400;
@@ -174,9 +152,8 @@ li {
 }
 
 
-#sec-bot {
+#sec-3 {
     background-image: url(/assets/Cafe\ onda.png);
-    position: absolute;
     background-repeat: no-repeat;
     width: 100%;
     height: 199.08px;
@@ -184,25 +161,19 @@ li {
     top: 1200px;
 }
 
-#aside-content {
-background-color: #FFFFFF;
-position: absolute;
-width: 100%;
-height: 956px;
-top: 2208px;
+#sec-4 {
+    width:100%;
+    margin: 0 auto;
 }
 
 #footer-content {
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    height: 75px;
     background: #57290B;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 9.5px 0px;
 }
-
 
 #footer-content p {
     font-family: 'Open Sans';
