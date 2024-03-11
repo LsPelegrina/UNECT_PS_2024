@@ -162,8 +162,13 @@ main {
 }
 
 #sec-4 {
-    width:100%;
+    width: 100%;
     margin: 0 auto;
+    background-color: var(--color-neutral-3);
+}
+
+#carrossel{
+    margin-left: 120px;
 }
 
 #footer-content {
