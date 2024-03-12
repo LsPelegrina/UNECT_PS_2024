@@ -74,7 +74,7 @@ main {
 
 
 #sec-1 {
-    background-image: url(/assets/Imagem\ Cafes.png);
+    background-image: url(/assets/BackGround.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,18 +152,64 @@ main {
 }
 
 
-#sec-3 {
+#sec-3::before {
+    background-size: cover;
+    top: -118px;
+    position: absolute;
+    content: '';
     background-image: url(/assets/Cafe\ onda.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 199.08px;
+    height: 258px;
     left: 0px;
-    top: 1200px;
 }
 
-#sec-4 {
+#sec-3 {
+    margin-top: 200px;
+    position: relative;
     width:100%;
+    background-color:#80451F;
+    padding: 170px 0 128px;
+}
+
+.shelf-container {
     margin: 0 auto;
+    max-width: 1440px;
+}
+
+.shelf-title {
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.shelf {
+    background-color: #F0F0F0;
+    padding: 16px;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 24px;
+}
+
+.shelf h3 {
+    font-family: 'Open Sans';
+    margin: 8px 0 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.shelf p {
+    font-family: 'Open Sans';
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    color:#1F0C00;
 }
 
 #footer-content {

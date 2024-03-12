@@ -1,11 +1,11 @@
 
 $(function(){
 
-    $("#sec-4").slick({
+    $(".shelf-list").slick({
         dots: false,
         infinite: false,
         speed: 300,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
@@ -32,9 +32,6 @@ $(function(){
               slidesToScroll: 1
             }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
     });
 })
