@@ -108,7 +108,8 @@ main {
     color: #F0F0F0;
 }
 
-/*.botao {
+/*
+.botao {
     font-family: 'Open Sans';
     font-size: 17px;
     font-weight: 800;
@@ -134,12 +135,24 @@ main {
     top: 715px;
 }
 
+
+.sn-title {
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+    letter-spacing: 2%;
+    font-weight: 700;
+    color: #1F0C00;
+}
+
+
+/*
 #sec-2.paragrafos {
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
-
+*/
+/*
 #sec-2.paragrafos p {
     padding-right: 120px;
     font-family: 'Open Sans';
@@ -149,6 +162,12 @@ main {
     letter-spacing: 1%;
     color: #1F0C00;
     margin-bottom: 20px; 
+}
+*/
+
+.sn-container {
+    margin: 0;
+    max-width: 1440px;
 }
 
 
@@ -184,6 +203,7 @@ main {
     line-height: 48px;
     letter-spacing: 2%;
     text-align: center;
+    color: #F0F0F0;
 }
 
 .shelf {
