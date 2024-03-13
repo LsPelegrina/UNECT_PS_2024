@@ -112,7 +112,7 @@ main {
     margin-bottom: 41px;
 }
 
-.botao a{
+.botao {
     line-height: 57px;
     text-align: center;
     height: 57px;
@@ -121,14 +121,17 @@ main {
     font-weight: bold;
     border-radius: 8px;
     background-color: #80451F; 
-    color: white;
-    text-decoration: none;
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 3%;
   }
 
-#seta {
+  .botao a{
+    text-decoration: none;
+    color: white;
+  }
+
+.seta {
     color: #F0F0F0;
     margin-left: 20px;
 }
