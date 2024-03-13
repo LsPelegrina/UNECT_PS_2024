@@ -48,6 +48,7 @@ header nav ul li{
     margin: 0 10px;
     list-style: none;
     height: 22px;
+    font-size: 18px;
 }
   
 header nav ul li img{
@@ -119,15 +120,12 @@ main {
     font-weight: 800;
     line-height: 33px;
     width: 175px;
-    margin-left: 100px;
-    display:flex;
     background-color: #8F542E ;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     border: 2px solid #57290B; 
     cursor: pointer;
-    transition: background-color 0.3s;
     
 }
 
@@ -139,9 +137,7 @@ span {
 #sec-2 {
     background-color: #FFFFFF;
     width: 100%;
-    height: 339.41px;
-    left: 104px;
-    top: 715px;
+    height: 542px;
 }
 
 
@@ -151,7 +147,16 @@ span {
     letter-spacing: 2%;
     font-weight: 700;
     color: #1F0C00;
+    margin-left:120px;
+    margin-top:57px;
+    line-height: 56px;
 }
+
+#sec-2 h2::after {
+    content: "";
+    width: 255px;
+    background-color: #FBC9A8;
+  }
 
 
 /*
@@ -177,8 +182,25 @@ span {
 .sn-container {
     margin: 0;
     max-width: 1440px;
+    display: flex;
 }
 
+.sn-div{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 120px;
+    width: 589px;
+}
+
+#sn-div-p2{
+    margin-top:0px;
+    margin-bottom: 48px;
+}
+
+#sec-2-img{
+    margin-left: 203px;
+}
 
 #sec-3::before {
     background-size: cover;
