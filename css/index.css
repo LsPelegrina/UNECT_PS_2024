@@ -112,27 +112,26 @@ main {
     margin-bottom: 41px;
 }
 
-.botao {
-    display:flex;
-    flex-direction: row;
-    font-family: 'Open Sans';
-    font-size: 17px;
-    font-weight: 800;
-    line-height: 33px;
-    width: 175px;
-    background-color: #8F542E ;
-    color: #fff;
+.botao a{
+    line-height: 57px;
+    text-align: center;
+    height: 57px;
+    width: 283px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #80451F; 
+    color: white;
     text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid #57290B; 
-    cursor: pointer;
-    
-}
-
-span {
-    content: "\2192";
-    width:20px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3%;
   }
+
+#seta {
+    color: #F0F0F0;
+    margin-left: 20px;
+}
 
 #sec-2 {
     background-color: #FFFFFF;
