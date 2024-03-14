@@ -50,6 +50,21 @@ header nav ul li{
     height: 22px;
     font-size: 18px;
 }
+
+header nav ul li a::after{
+    content: "";
+    width: 43px;
+    height: 2px;
+    background-color: #B2784A;
+    display: block;
+    margin: 3px auto;
+}
+
+header nav ul li a:hover::after{
+    background-color: #CA8E67;
+    transition: 0.4s;
+}
+
   
 header nav ul li img{
     flex: 0 0 auto;
@@ -126,6 +141,11 @@ main {
     letter-spacing: 3%;
   }
 
+  .botao:hover{
+    background-color: #CA8E67;
+    transition: 0.3s;
+  }
+
   .botao a{
     text-decoration: none;
     color: white;
@@ -152,14 +172,18 @@ main {
     margin-left:120px;
     margin-top:57px;
     line-height: 56px;
+    z-index: 4;
 }
 
-#sec-2 h2::after {
+#sec-2 h2::after{
     content: "";
     width: 255px;
+    height: 28px;
+    display: inline-block;
     background-color: #FBC9A8;
-  }
-
+    transform: translateX(-95%) translateY(50%);
+    z-index: -1; /* Posiciona a barra atrás do texto */
+}
 
 /*
 #sec-2.paragrafos {
@@ -218,7 +242,7 @@ main {
 }
 
 #sec-3 {
-    margin-top: 200px;
+    margin-top: 118.2px;
     position: relative;
     width:100%;
     background-color:#80451F;
@@ -266,6 +290,10 @@ main {
     color:#1F0C00;
 }
 
+.shelf-img{
+    width: 100%;
+}
+
 #footer-content {
     width: 100%;
     background: #57290B;
@@ -294,3 +322,4 @@ main {
     color: #FFDAB8;
     padding-right: 120px;
 }
+
