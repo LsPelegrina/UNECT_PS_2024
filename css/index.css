@@ -335,7 +335,7 @@ main {
     font-weight: 700;
     color: #1F0C00;
     margin-left:120px;
-    margin-top:57px;
+    margin-top:128px;
     line-height: 56px;
     position: relative;
     z-index: 2;
@@ -381,14 +381,44 @@ main {
     height: 711px;
 }
 
-#sec-4-div-esq p{
+.sec-4-div-esq-p{
     color:#F0F0F0;
     margin-left: 30px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    height: 25px;
+}
+
+#sec-4-div-img {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 148px;
+    padding-bottom: 40px;
+    width: 248px;
+    margin-left:101px;
+}
+
+#sec-4-div-img p{
+    font-family: "Cormorant Garamond";
+    line-height: 38.75px;
+    font-size: 32px;
+    margin: 0px;
+    margin-top: 9px;
+    color:#F0F0F0;
 }
 
 .icon-ent-cont{
     text-align: center;
     vertical-align: middle;
+    height: 47px;
+}
+
+#divisao{
+    margin-bottom: 0px;
+    color:#F0F0F0;
+    margin-left: 30px;
 }
 
 #divisao::after{
@@ -398,15 +428,18 @@ main {
     background-color: #B2784A;
     display: block;
     margin-left: 36px;
+    margin-top: 25px;
+    margin-bottom: 23px;
 }
 
 form {
     display: grid;
     grid-template-columns: 1fr; /* Uma única coluna */
-    grid-gap: 10px; /* Espaçamento entre os elementos */
+    grid-gap: 32px; /* Espaçamento entre os elementos */
     margin-left:40px;
-    margin-top:43px;
+    margin-top: 43px;
     margin-right: 40px;
+    height: 645px;
 }
 
 
@@ -442,6 +475,11 @@ input, textarea{
 /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
 .campo input:focus, .campo textarea:focus {
     background: #E0E0F8;
+}
+
+button{
+    margin-top: 24px;
+    margin-bottom: 43px;
 }
 
 #footer-content {
@@ -521,6 +559,7 @@ input, textarea{
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 54px;
 }
 #footer-content p{
     padding: 0;
