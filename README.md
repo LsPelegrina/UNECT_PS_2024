@@ -9,3 +9,6 @@ O desenvolvimento da landing page em dupla foi um ponto crucial para o sucesso d
 
 Em um mundo cada vez mais digitalizado, o projeto nos proporcionou a oportunidade de exercitar o lado humano, muitas vezes esquecido. A comunicação eficaz, a empatia e a capacidade de trabalhar em conjunto foram essenciais para o sucesso da landing page. Após superar todos os desafios, sentimos um enorme orgulho e satisfação com o resultado final da landing page. O aprendizado adquirido durante o processo foi inestimável e nos motiva a continuar explorando o mundo do desenvolvimento web. 
 A criação da landing page responsiva foi mais do que um desafio profissional. Foi uma jornada de aprendizado, crescimento e desenvolvimento pessoal. Através da persistência, da colaboração e da paixão pelo aprendizado, conseguimos transformar uma ideia em realidade. Essa experiência nos ensinou que, com trabalho em equipe e dedicação, podemos superar qualquer obstáculo e alcançar resultados gratificantes.
+
+## Deploy
+Caso queiram ver a aplicação em deploy, [**Clique Aqui**](https://lspelegrina.github.io/UNECT_PS_2024/html/index.html) em deploy, ou acesso o link a seguir: https://lspelegrina.github.io/UNECT_PS_2024/html/index.html
